@@ -1,0 +1,21 @@
+.column {
+    float: left;
+    width: 42%;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mfa{
+	text-align: center;
+	background-color: coral;
+	border:solid;
+	font-family: sans-serif;
+	margin-right: 50px;
+	margin-left: 50px;
+
+img{
+	background-color: coral;
+	border: solid;
+
+}
