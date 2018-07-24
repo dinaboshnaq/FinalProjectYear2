@@ -11,7 +11,7 @@ h1{
 	margin-bottom: 50px;
 	margin-top: 50px;
 	text-align: center;
-	background-image: url("file:///home/we/Desktop/FinalProjectYear2/static/images/dina.jpg");
+	background-image: url("images/dina.jpg");
 	border:solid;
 
 }
@@ -32,7 +32,7 @@ h1{
 
 }
 #homebody{
-	background-image: url("file:///home/we/Desktop/FinalProjectYear2/static/images/darkwood.jpg");
+	background-image: url("images/darkwood.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 }
