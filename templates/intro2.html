@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+	<title>Let's know more!</title>
+	<link rel="stylesheet" type="text/css" href="../static/mystyle.css">
+</head>
+<body id="introbody">
+	{% extends "homenavegater.html" %}
+	{% block body %}
+	<h1 id="who">Let's know more!</h1>
+	<center><img width="500" src="/static/images/DVC00005.JPG"/> </center>
+	<h3 id="would">Here are some facts about me...</h3>
+	<ol id="order">
+		<li>I lived in Malaysia for three years.</li>
+		<li>I have never seen snow in my life.</li>
+		<li>I love kiwi flavoured ice cream.</li>
+	</ol>
+	<button id="ba" onclick=location.href="intro" onmouseout=changeBack() onmouseover=changeColor()>Go Back</button>
+		<script>
+		function changeColor(){
+			var cc2 = document.getElementById("ba");
+			cc2.style.background=" #afed96 ";
+			cc2.style.color="black";
+
+			}
+			function changeBack(){
+			var back2=document.getElementById('ba');
+			back2.style.background="#c9090c";
+			back2.style.color="white";
+			}
+			var nums=[3,5,1,2,7,4];
+	</script>
+	{% endblock %}
+
+</body>
+</html>

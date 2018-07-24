@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<title>Introducing me! </title>
+	<link rel="stylesheet" type="text/css" href="../static/mystyle.css">
+</head>
+
+<body id="introbody">
+	{% extends "homenavegater.html" %}
+	{% block body %}
+	<h1 id="who">Who is Dina?</h1>
+	<center><img width="500" src="../static/images/P1020102.JPG"/> </center>
+	<h3 id="would">Would you like to get to know me?</h3>
+	<h3 id="would">And her are some of my hobbies...</h3>
+	<ol id="order">
+		<li>I like drawing.</li>
+		<li>I like swimming.</li>
+		<li>I like painting.</li>
+	</ol>
+	<h3>This is my favorite website!</h3>
+	<a id="clickme" href="https://www.webtoons.com/en/" target="_blank">CLICK ME! I am her favorite website! LOL</a>
+
+	<h2 id="wouldyou">Would you like to know more?</h2>
+
+	<button id="lets" onclick=location.href="/intro2" onmouseout=changeBack() onmouseover=changeColor()>YES</button>
+	<script>
+		function changeColor(){
+			var cc = document.getElementById("lets");
+			cc.style.background=" #afed96 ";
+			cc.style.color="black";
+
+			}
+			function changeBack(){
+			var back=document.getElementById('lets');
+			back.style.background="#c9090c";
+			back.style.color="white";
+			}
+			var nums=[3,5,1,2,7,4];
+	</script>
+	{% endblock %}
+
+</body>
+</html>
+
